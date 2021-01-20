@@ -24,7 +24,7 @@ div.main-container {
 header {
   background-color: #E579E6;
   height: 150px;
-  margin: 3% 0 0 0;
+  margin: 3% 0 ;
 }
 /* /regole css header */
 
@@ -43,21 +43,26 @@ section.content-container {
   margin: 0 0 1% 0;
 }
 
-div.row {
+div.title-bar {
   height: 10%;
   background-color: #ABCFE7;
   margin-bottom: 2%;
 }
 
-div.left-col, div.right-col {
+div.row {
   height: 86%;
+
+}
+
+div.left-col, div.right-col {
+  height: 100%;
   width: 25%;
   background-color: #ABCFE7;
   float: left;
 }
 
 div.center-col {
-  height:86%;
+  height:100%;
   width:46%;
   margin: 0 2% 0 2%;
   background-color: #ABCFE7;
